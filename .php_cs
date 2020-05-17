@@ -14,7 +14,7 @@ $mainFinder = Symfony\CS\Finder\DefaultFinder::create()
 		)
 	)
 	->append($topFilesFinder);
-
+ 
 return Symfony\CS\Config\Config::create()
     ->setUsingLinter(false)
     ->setUsingCache(true)
